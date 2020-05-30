@@ -1,0 +1,13 @@
+.side-bar{
+
+}
+
+.side-bar-list{
+  display: flex;
+  flex-direction: column;
+  &-item{
+    &::before{
+      content: "・";
+    }
+  }
+}
